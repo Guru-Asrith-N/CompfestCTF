@@ -32,7 +32,7 @@ so p*q gives `((a*10^200 + b*10^100 + c) * (c*10^200 + b*10^100 + a))` which giv
 now taking common terms gives `(a*c)*10^400 + (a*b+b*c)*10^300 + (a^2 +b^2 +c^2)*10^200 + (a*b+b*c)*10^100 + (a*c)`     
 now this gives `x*10^400 + y*10^300 + z*10^200 + y*10^100 + x` which is equal to `x(10^400 + 1) + y(10^300 + 10^100) + z*10^200`    
 then we use LLL    
-i don't know how to use it but here is the code for the solving it    
+i don't know how to use it but here is the code for solving it    
 ```
 load('https://raw.githubusercontent.com/TheBlupper/linineq/main/linineq.py')
 
